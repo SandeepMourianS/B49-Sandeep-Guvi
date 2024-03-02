@@ -1,0 +1,253 @@
+.header{
+    display: flex;
+}
+
+p{
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.home-background{
+    height: 300px;
+}
+
+.home-content{
+  margin-top: 50px;
+    margin-right: 850px;
+      text-align: left;
+}
+
+body{
+    background-image: url('../../assets/danjr-kitchen.png');
+    background-repeat: no-repeat;
+}
+
+.logo{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+    align-items: center;
+    font-size: x-large;
+}
+
+.dan-image{
+    width: 205px;
+height: 115px;
+top: 71px;
+left: 30px;
+
+}
+
+.bar{
+    justify-content: space-evenly;
+align-content: center;
+margin-top: 42px;
+margin-left: 70px;
+font-family: 'League Spartan', sans-serif;
+}
+
+.home{
+    margin-left: 60px;
+    margin-right: 50px;
+}
+
+.home:hover{
+    color: #ffffff;
+}
+
+
+.home {
+    text-decoration: none;
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+  }
+  
+  .home::after {
+    content: '';
+    position: absolute;
+    color: #ffffff;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(254, 185, 2, 1);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+  .home:hover::after {
+    color: white;
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+
+  .menu {
+    text-decoration: none;
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+  }
+
+  .menu:hover{
+    color: #ffffff;
+}
+  
+  .menu::after {
+    content: '';
+    position: absolute;
+    color: #ffffff;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(254, 185, 2, 1);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .menu:hover::after {
+    color: white;
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+.menu{
+    margin-right: 50px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.about {
+    text-decoration: none;
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+  }
+  
+  .about::after {
+    content: '';
+    position: absolute;
+    color: #ffffff;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(254, 185, 2, 1);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .about:hover::after {
+    color: white;
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .about:hover{
+    color: #ffffff;
+}
+
+.about{
+    margin-right: 50px;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+
+.review {
+    text-decoration: none;
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+  }
+  
+  .review::after {
+    content: '';
+    position: absolute;
+    color: #ffffff;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(254, 185, 2, 1);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .review:hover::after {
+    color: white;
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .review:hover{
+    color: #ffffff;
+}
+
+.review{
+    margin-right: 50px;
+    // text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.contact {
+    text-decoration: none;
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+  }
+  
+  .contact::after {
+    content: '';
+    position: absolute;
+    color: #ffffff;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(254, 185, 2, 1);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .contact:hover::after {
+    color: white;
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .contact:hover{
+    color: #ffffff;
+}
+
+.contact{
+    margin-right: 50px;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.first{
+    color: rgba(254, 185, 2, 1);
+    font-family: 'Poppins', sans-serif;
+}
+
+.second{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
